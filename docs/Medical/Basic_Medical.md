@@ -37,7 +37,8 @@ Lets begin.
 
   Each wound and effect are best treated by a specific treatment option, and more often than not the treatments come with both pros and cons, so choosing the correct one can make a huge difference. For non-medics however there is room for some amount of generalisation to make it easier.
 
-  Treatments can be broken down into three categories
+  Treatments can be broken down into three categories  
+
   - Bandages
   - Medications
   - Specialized
