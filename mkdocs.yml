@@ -6,13 +6,13 @@ theme:
 
   palette:
     - scheme: default
-      primary: teal
+      primary: #cc0000
       accent: amber
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
     - scheme: slate
-      primary: teal
+      primary: #cc0000
       accent: amber
       toggle:
         icon: material/lightbulb-outline
