@@ -21,8 +21,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-repo_name: alexban011/ArmA-3-Guides
-repo_url: https://github.com/alexban011/ArmA-3-Guides
+repo_name: royrovp/ArmA-3-Guides
+repo_url: https://github.com/royrovp/ArmA-3-Guides
 
 markdown_extensions:
   # For adminitions
