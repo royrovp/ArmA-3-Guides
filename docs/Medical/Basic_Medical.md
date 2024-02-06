@@ -1,48 +1,55 @@
 # Basic ACE Medical
 This guide is aimed primarily towards players who have not used ACE Medical previously, but also covers more general topics that helps anyone become a more effective part of the squad.
 
-## ACE Medical fundamentals
+## ACE Medical
 
-ACE Medical is part of the ACE mod, which aims to increase the realism of ArmA 3 Gameplay. ACE Medical therefore extends the vanilla ArmA 3 health model and adds several additional factors, such as different types of wounds, bleeding, heart rate, blood pressure, and so on. On top of this there are also an extended arsenal of treatments available to the player, and knowing which one to choose in what circumstances is part of the fun.
+ACE Medical is part of the ACE mod, which aims to increase the realism of ArmA 3 Gameplay.
+
+ACE Medical extends the vanilla ArmA 3 health model and adds several additional factors, such as different types of wounds, bleeding, heart rate, blood pressure, and so on. On top of this there are also an extended arsenal of treatments available to the player, and knowing which one to choose in what circumstances is part of the fun.
 
 Lets begin.
 
-### Taking Damage with ACE Medical
-  In vanilla ArmA 3, damage dealt to a unit is treated mostly as a simple decrease to that units HP. On top of this there may be other effects such as broken limbs and decreased accuracy.
+## What to expect
+  ACE Medical is quite advance, and may be a little bit overwhelming at first, but it really comes down to a rather simple gameloop.
 
-  ACE Medical adds an intermediat stage with the simulations of wounds.
+  `Damage -> Wounds -> Secondary Effects -> Treatment`
 
-  With ACE Medical, damage will cause the unit to suffer wounds of different types depending on the types of damage. The wounds can in turn have different effects such as bleeding and pain, which affect the players accuracy, vision, stamina, and so on.
+  Compared to vanilla ArmA 3 only the `wounds` are really new, however its worth noting that all other parts have been heavily extended as well.
 
-  **Dealing with wounds and their knockon effects is the main gameloop of ACE Medical**
+  We will go over each stage briefly.
 
-### Unit states
-_Maybe remove this?_
 
-<br>
-
-### Simulated Parameters
-Knowing what ACE simulates will help you know what to care about when the bullets start flying. No reason to treat trenchfoot and dehydration when you could instead be returning fire.
-
-#### Wounds
-  ACE Medical uses the type of damage received to determine what categories of wounds to apply. There are quite a few types of wounds with different characteristics, but in an effort to make this guide as simple as possible we will not list them here.
+### Damage
+  _Sources of damage determine wound types_
   
-  All you need to know is this:
+### Wounds
+  There are many different types of wounds simulated in ACE Medical, from scraped knees to large velocity wounds. When damage is taken ACE determines the types, sizes, and ammounts of wounds to apply to the player based on the type of damage. For now all you really need to know is that some wounds are bigger than other, and therefore will require more urgent attention. If you are hit in the arm with a .50 cal you might want to take care of that much sooner than if you take a 9mm to your chestplate. 
 
-  **Start with whatever limb is bleeding the most**
+### Secondary Effects
+  Wounds in turn will cause seconday effects on the player.
   
-  How to determine which limb that is will be covered in the setion on the ACE Medical Menu.
+  This is where the health model comes into play. While vanilla ArmA 3 models health closer to a common HP system where a single number represents the health of the unit, ACE instead models parameters such as heartrate, bloodpressure, and pain. These are all interlinked with eachother and in turn affect the overall state of the players health, such as unconciosness, stamina, accuracy, and even vision.
+
+  These seconday and tertiary effects are the result of taking damage, and the goal of the ACE Medical gameplay loop is to revert these effects and "Heal" the unit.
+
+### Treatments
+  Treatments in vanilla ArmA 3 is mostly a one-and-done thing, what with FAKs and Medkits. In ACE Medical this is much, much more neuanced and the core gameplay of the system.
+
+  Each wound and effect are best treated by a specific treatment option, and more often than not the treatments come with both pros and cons, so choosing the correct one can make a huge difference. For non-medics however there is room for some amount of generalisation to make it easier.
+
+  Treatments can be broken down into three categories
+  - Bandages
+  - Medications
+  - Other
+
+  Bandages are the most straight forward. You apply a bandage to a wound to stop it from bleeding. There are however several different types of bandages to choose from but we will cover which you need to care about later.
+
+  Medications are a little bit more tricky. This category mainly refers to `Morphine` and `Epinephrine`. These affect not the wounds but rather target the secondary effects by altering the vital parameters. We will cover how to use them and what to be carefull of later, but for now just remember that you want to be carefull with these.
+
+  The Other category include items such as `Tourniqets`, `Splints`, and `IVs`. These items are designed to do a single task, and are pretty straight forward. We will discuss the workings of these later as well.
 
 
-#### Bleeding
-  Bleeding is caused by open wounds. The player starts with REPLACE ME Liters of blood. Blood does not regenerate on its own, but can be given by using an IV bag of Blood, Plasma, or Saline. There is no difference between the types of IV liquid in terms of gameplay or effect. FACTCHECK THIS.
-
-#### Vitals
-  ACE Medical simulates the heart by means of two vital values. Heartrate (HR) and blood pressure (BP). Almost all types of damage will eventually cause these values to divert from their nominal values. As such they are a good way to meassure how a unit is doing.
-#### Pain
-#### Fractures
-
-## The ACE Medical menu
+## Interacting with ACE Medical
 _How to interact with ACE Medical as a player_
 ### How to Access
 ### How to Navigate
