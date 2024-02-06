@@ -43,11 +43,11 @@ Lets begin.
   - Medications
   - Specialized
 
-  *Bandages* are the most straight forward. You apply a bandage to a wound to stop it from bleeding. There are however several different types of bandages to choose from but we will cover which you need to care about later.
+  **Bandages** are the most straight forward. You apply a bandage to a wound to stop it from bleeding. There are however several different types of bandages to choose from but we will cover which you need to care about later.
 
-  *Medications* are a little bit more tricky. This category mainly refers to `Morphine` and `Epinephrine`. These affect not the wounds but rather target the secondary effects by altering the vital parameters. We will cover how to use them and what to be carefull of later, but for now just remember that you want to be carefull with these.
+  **Medications** are a little bit more tricky. This category mainly refers to `Morphine` and `Epinephrine`. These affect not the wounds but rather target the secondary effects by altering the vital parameters. We will cover how to use them and what to be carefull of later, but for now just remember that you want to be carefull with these.
 
-  The *Specialized* category include items such as `Tourniqets`, `Splints`, and `IVs`. These items are designed to do a single task, and are pretty straight forward. We will discuss the workings of these later as well. There are more specialized items available, but as a non medic these three are the ones you need to care about.
+  The **Specialized** category include items such as `Tourniqets`, `Splints`, and `IVs`. These items are designed to do a single task, and are pretty straight forward. We will discuss the workings of these later as well. There are more specialized items available, but as a non medic these three are the ones you need to care about.
 
 
 ## Interacting with ACE Medical
