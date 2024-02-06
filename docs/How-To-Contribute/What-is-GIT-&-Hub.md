@@ -1,2 +1,0 @@
-# GIT
-bla bla bla
