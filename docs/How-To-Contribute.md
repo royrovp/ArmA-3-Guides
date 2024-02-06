@@ -1,6 +1,7 @@
 # How To Contribute
 The minimum requirements are GIT and a GitHub account, but I strongly suggest you to install Notepad++ or Visual Studio Code which would make it easier to write the pages.  
 
+
 # GIT
 Git is a software which keeps track of all changes in a project. This lets us keep a history of how the project evolved and a lot of other things.  
 
