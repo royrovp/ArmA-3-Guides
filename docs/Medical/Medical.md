@@ -35,7 +35,7 @@ Knowing what ACE simulates will help you know what to care about when the bullet
 
 
 #### Bleeding
-  Bleeding is caused by open wounds. The player starts with 6 Liters of blood. Blood does not regenerate on its own, but can be given by using an IV bag of Blood, Plasma, or Saline. There is no difference between the types of IV liquid in terms of gameplay or effect. FACTCHECK THIS.
+  Bleeding is caused by open wounds. The player starts with 6 Liters of blood. Blood does not regenerate on its own, but can be given by using an IV bag of Blood, Plasma, or Saline. There is no difference between the types of IV liquid in terms of gameplay or effect.
 
 #### Vitals
   ACE Medical simulates the heart by means of two vital values. Heartrate (HR) and blood pressure (BP). Almost all types of damage will eventually cause these values to divert from their nominal values. As such they are a good way to meassure how a unit is doing.
