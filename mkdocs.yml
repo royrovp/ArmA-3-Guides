@@ -6,13 +6,13 @@ theme:
 
   palette:
     - scheme: default
-      primary: darkred
+      primary: red
       accent: amber
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
     - scheme: slate
-      primary: darkred
+      primary: red
       accent: amber
       toggle:
         icon: material/lightbulb-outline
