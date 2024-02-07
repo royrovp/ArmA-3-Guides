@@ -53,6 +53,9 @@ Lets begin.
 ## Interacting with ACE Medical
 _How to interact with ACE Medical as a player_
 ### How to Access
+  EXPLANATION TEXT
+  ![image info](../assets/medical/medicalMenu.png)
+
 ### How to Navigate
 ### How to Read
 
