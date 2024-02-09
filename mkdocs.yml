@@ -40,7 +40,7 @@ site_name: Your Site Name
 nav:
   - Home: index.md
   - Contributing:
-      weight:  100
+    weight:  100
       - How To Contribute: Contributing/How-To-Contribute.md
       - Guidelines: Contributing/Guidelines.md
 
