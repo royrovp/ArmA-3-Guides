@@ -23,8 +23,16 @@
 ### Assistance
 ## Treatments
 ### Bandages
-  - Types of bandages and their stats
-  -  What bandages to bring and when to use them
+  ACE provides us with four kinds of bandages for different situations. They are:
+
+  - basic bandages (field dressing)
+  - packing bandages 
+  - elastic bandages
+  - quick clots 
+
+  Each bandage has it's own use, but for our case (multiplayer missions where we have medics) we mostly care about 2 of these: packing and elastic bandages. These 2 bandages have very good stats.............
+  TODO: explain shortly what bandage stats actually do
+
 ### Medications
   - Types of medications and their effects
   - When to use what medication
